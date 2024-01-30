@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  
+  div:first-child {
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px; 
+    flex: 0.8; 
+    border: 2px dotted #3498db; 
+  }
+
+  div:first-child p {
+    font-size: 18px; 
+    color: #2ecc71; 
+    font-style: italic; 
+
+  }
+
+  div:first-child a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #3498db; 
+    color: #fff; 
+    text-decoration: none;
+    font-size: 14px; 
+    font-weight: bold; 
+    padding: 8px 16px; 
+    border-radius: 5px;
+  }
+
+  
+  div:first-child + div {
+    background-color: #e0e0e0;
+    padding: 20px;
+    position: relative;
+    margin-left: 10px; 
+    border-radius: 10px; 
+    flex: 1; 
+    border: 2px solid #d35400; 
+  }
+
+  div:first-child + div p {
+    font-size: 20px; 
+    color: #e74c3c; 
+    font-weight: bold; 
+  }
+
+  div:first-child + div a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #d35400;
+    color: #fff; 
+    text-decoration: underline;
+    font-size: 16px; 
+    padding: 8px 16px; 
+    border-radius: 5px; 
+  }
